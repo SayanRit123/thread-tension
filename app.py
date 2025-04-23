@@ -7,7 +7,7 @@ app = Flask(__name__)
 aws_access_key_id = 'AKIAS2RBT7PDHMNDZPUA'
 aws_secret_access_key = 'X2mAMmNkWTRihDpeFTt46HgKcB71QeJMEv7tmX7+'
 region_name = 'us-east-1'  # Replace with your region
-table_name = 'ThreadTensionData'  # Replace with your table name
+table_name = 'Moisture_data'  # Replace with your table name
 
 # Initialize DynamoDB connection
 dynamodb = boto3.resource(
